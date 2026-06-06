@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Raul the Boss",
+      "email": "admin@email.com",
+      "password": "perensejo123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Ana Maria Polo",
+      "email": "cope@email.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "name": "Kimberly Loaiza",
+      "email": "tran@email.com",
+      "password": "nomegustaspa",
+      "role": "user"
+    }
+  ],
+  "showings": [
+    {
+      "id": "1",
+      "movie": "Coraline: Reestreno",
+      "room": "Room 1 - 2D",
+      "date": "2026-04-01",
+      "time": "18:00",
+      "totalCapacity": 100,
+      "availableSeats": 80,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "movie": "Pitufos",
+      "room": "Room 2 - 3D",
+      "date": "2026-06-21",
+      "time": "20:30",
+      "totalCapacity": 80,
+      "availableSeats": 50,
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "movie": "Michael",
+      "room": "Room 3 - 2D",
+      "date": "2026-04-08",
+      "time": "15:00",
+      "totalCapacity": 60,
+      "availableSeats": 0,
+      "status": "cancelled"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "3",
+      "userName": "Kimberly Loaiza",
+      "showingId": "1",
+      "movieName": "Coraline",
+      "ticketCount": 2,
+      "bookingDate": "2026-03-05",
+      "status": "confirmed"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "userName": "Ana Maria Polo",
+      "showingId": "3",
+      "movieName": "Michael",
+      "ticketCount": 3,
+      "bookingDate": "2026-04-07",
+      "status": "pending"
+    }
+  ]
+}

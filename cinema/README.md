@@ -31,9 +31,9 @@ npm start
 
 | Role  | Email               | Password  |
 |-------|---------------------|-----------|
-| Admin | admin@cinema.com    | Admin123! |
-| User  | carlos@mail.com     | User123!  |
-| User  | maria@mail.com      | User123!  |
+| Admin | admin@email.com    | perensejo123 |
+| User  | cope@email.com     | 12345  |
+| User  | tran@email.com      | nomegustaspa  |
 
 ---
 
